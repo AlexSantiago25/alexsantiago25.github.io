@@ -1,0 +1,22 @@
+.skip-to-content {
+  position: absolute;
+  top: -100px;
+  left: 1rem;
+  background: var(--accent-indigo);
+  color: #ffffff;
+  padding: 0.75rem 1.25rem;
+  z-index: 9999;
+  border-radius: var(--radius-sm);
+  font-weight: 700;
+  text-decoration: none;
+  transition: top 0.2s ease;
+
+  &:focus {
+    top: 1rem;
+    outline: 2px solid #ffffff;
+  }
+}
+
+main:focus {
+  outline: none;
+}
